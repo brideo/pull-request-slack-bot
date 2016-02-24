@@ -1,0 +1,217 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f482a4e9f5b0af92ec6792424df1582b",
+    "content-hash": "c8375e945d0d44736b6823d3a2ddf9c4",
+    "packages": [
+        {
+            "name": "gentle/bitbucket-api",
+            "version": "0.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gentlero/bitbucket-api.git",
+                "reference": "5583d0e8092a0896e56c3349cc86ffaaaa08ab82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gentlero/bitbucket-api/zipball/5583d0e8092a0896e56c3349cc86ffaaaa08ab82",
+                "reference": "5583d0e8092a0896e56c3349cc86ffaaaa08ab82",
+                "shasum": ""
+            },
+            "require": {
+                "jacobkiers/oauth": "~1.0.10",
+                "kriswallsmith/buzz": "~0.13",
+                "php": ">=5.3"
+            },
+            "conflict": {
+                "eabay/bitbucket-repo-sync": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bitbucket\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexandru Guzinschi",
+                    "email": "alex@gentle.ro",
+                    "homepage": "http://www.sebi.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Bitbucket API wrapper for PHP >= 5.3",
+            "homepage": "https://bitbucket.org/gentlero/bitbucket-api",
+            "keywords": [
+                "api",
+                "bitbucket"
+            ],
+            "time": "2015-12-05 07:29:28"
+        },
+        {
+            "name": "jacobkiers/oauth",
+            "version": "1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jacobkiers/OAuth.git",
+                "reference": "95477a77107436e67a10e799fad04d82719a5f1e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jacobkiers/OAuth/zipball/95477a77107436e67a10e799fad04d82719a5f1e",
+                "reference": "95477a77107436e67a10e799fad04d82719a5f1e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "*",
+                "phpunit/phpunit": "3.7.*@stable",
+                "squizlabs/php_codesniffer": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JacobKiers\\OAuth": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gary Jones",
+                    "email": "gary@garyjones.co.uk",
+                    "role": "developer"
+                },
+                {
+                    "name": "Alexandre Eher",
+                    "role": "Composer packager"
+                },
+                {
+                    "name": "Jacob Kiers",
+                    "email": "jacob@alphacomm.nl",
+                    "role": "developer"
+                },
+                {
+                    "name": "Andy Smith",
+                    "role": "original author"
+                }
+            ],
+            "description": "Based on Andy Smith's basic PHP library for OAuth 1.0a",
+            "homepage": "https://github.com/jacobkiers/OAuth",
+            "keywords": [
+                "oauth"
+            ],
+            "time": "2015-10-02 13:50:51"
+        },
+        {
+            "name": "kriswallsmith/buzz",
+            "version": "v0.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kriswallsmith/Buzz.git",
+                "reference": "d4041666c3ffb379af02a92dabe81c904b35fab8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kriswallsmith/Buzz/zipball/d4041666c3ffb379af02a92dabe81c904b35fab8",
+                "reference": "d4041666c3ffb379af02a92dabe81c904b35fab8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*"
+            },
+            "suggest": {
+                "ext-curl": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Buzz": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kris Wallsmith",
+                    "email": "kris.wallsmith@gmail.com",
+                    "homepage": "http://kriswallsmith.net/"
+                }
+            ],
+            "description": "Lightweight HTTP client",
+            "homepage": "https://github.com/kriswallsmith/Buzz",
+            "keywords": [
+                "curl",
+                "http client"
+            ],
+            "time": "2015-06-25 17:26:56"
+        },
+        {
+            "name": "shazam/php-slack",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/shazam/php-slack.git",
+                "reference": "fc4517e6777dc7e995f88cdb0fc25dd6afe19204"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/shazam/php-slack/zipball/fc4517e6777dc7e995f88cdb0fc25dd6afe19204",
+                "reference": "fc4517e6777dc7e995f88cdb0fc25dd6afe19204",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpSlack\\Tests\\": [
+                        "tests/",
+                        "tests/cases/"
+                    ],
+                    "PhpSlack\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Toni Lopez",
+                    "email": "toni.lopez@shazam.com"
+                }
+            ],
+            "description": "PHP Slack library",
+            "time": "2015-01-20 09:28:30"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

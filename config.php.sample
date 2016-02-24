@@ -1,0 +1,21 @@
+<?php
+
+return [
+    'bitbucket'        => [
+        'oauth_consumer_key' => 'your_key',
+        'oauth_consumer_secret' => 'your_secret'
+    ],
+    'slack'            => [
+        'token' => 'slackbot-token'
+    ],
+    'channelToRepoMap' => [
+        'channel-name' => [
+            'owner'      => 'brideo',
+            'repository' => 'git-repository',
+        ],
+        'other-channel-name' => [
+            'owner'      => 'brideo',
+            'repository' => 'magento2',
+        ],
+    ]
+];

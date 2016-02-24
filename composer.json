@@ -1,0 +1,11 @@
+{
+    "require": {
+        "shazam/php-slack": "^0.1.0",
+        "gentle/bitbucket-api": "^0.8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brideo\\PullRequestSlack\\App\\": "app"
+        }
+    }
+}
